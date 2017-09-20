@@ -1,0 +1,11 @@
+pip install dlib
+
+上面需要用到的scikit-image同样只是需要这么一句：
+
+pip install scikit-image
+
+注：如果用pip install dlib安装失败的话，那安装起来就比较麻烦了。错误提示很详细，按照错误提示一步步走就行了。
+
+
+
+python face-rec.py 1.dat 2.dat ./candidate-faecs test1.jpg
